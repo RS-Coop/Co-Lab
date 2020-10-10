@@ -1,0 +1,13 @@
+Meeting in Engineering Center Lobby:
+
+Meeting was mostly to work on project, discuss features, and get some cross level integration work done.
+
+Reformatted some of the databse and discussed what information features would have.
+
+Discussed features that need to be prioritized which includes login, sign-up, user page, and project page.
+
+Got login working in deployed application.
+
+Worked on PSQl functions.
+
+Debugged code.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CoLab</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/main.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+        integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- additional CSS -->
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1> All your tasks</h1>
+    <div class="flex-container">
+        <div class="main">
+            taskname:
+            {{range .}}
+            <div class="card">
+                <div class="container">
+                    project name:
+                    {{.Project_name}}
+                    name:
+                    <h4><b>{{.Name}}</b></h4>
+                    description:
+                    <p>{{.Description}}</p>
+                    due:
+                    {{.Due_date}}
+                    status:
+                    {{.Status}}
+                </div>
+            </div>
+            {{end}}
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

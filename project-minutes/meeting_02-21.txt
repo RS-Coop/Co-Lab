@@ -1,0 +1,16 @@
+Meet in Gemmill Library
+
+Worked on Milestone 1 outlining the project as a whole.
+
+Decided on application overview including neccesary features,
+        longshot features, and user interface.
+
+Decided on application architechture using html, JavaScript,
+        GoLang, and SQL.
+
+Planned to get started on outlining html pages and database.
+        Will work to have a navigable outlie by next meeting.
+
+Next meeting will be in one week.
+
+

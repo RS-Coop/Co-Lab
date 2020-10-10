@@ -1,0 +1,11 @@
+Meeting for 03-07 in Gemmil Math Library
+
+Discussed work completed for the week including developing the database,
+establishing a method to dump and restore database, working on server side 
+go code, working on sql queries, and developing more html.
+
+Most of the time was spent discussing the integration of all the different partswhich include go, sql, html, and javascript.
+
+Discussed milestone 2 and made a plan for finishing before Sunday.
+
+Planned for what to do next. This includes developing more database go code, server go code, and making the html dynamic.

@@ -1,0 +1,7 @@
+Meeting in Engineering Center Lobby
+
+Worked on Milestone five filling out the test cases for the three features involved. Feature discussion, page layout, database details, were involved in this discussion.
+
+Members worked on developing html pages and working on deploying the app throughGoogle.
+
+Worked on testing the pipeline for user login.

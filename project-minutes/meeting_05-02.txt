@@ -1,0 +1,6 @@
+Meeting on May 2nd in EC
+
+Worked on developing website and fixing bugs.
+Talked about Milestone 7
+
+Got password hashing

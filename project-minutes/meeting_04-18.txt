@@ -1,0 +1,8 @@
+Meeting on April 18th in Engineering Center Lobby
+
+Discussed plans for finishing project and presenting next Thursday.
+
+Planned to meet over the weekend to finalize features.
+
+Discussed some feature integration including some coordination between databse and front end. Discussed some layout plans. Discussed most imporant features to prioritize.
+

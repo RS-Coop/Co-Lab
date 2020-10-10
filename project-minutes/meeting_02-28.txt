@@ -1,0 +1,9 @@
+Meeting 02-28 ITLL
+
+Laid out functional diagram for project layout. HTML/CSS/Bootstrap/JavaScript->GO/Server->SQL/Database
+
+Looked at first website layout.
+
+Talked about overall integration between layers.
+
+Started researching Golang.

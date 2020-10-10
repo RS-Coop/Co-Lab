@@ -1,0 +1,9 @@
+Meeting in Engineering Center Lobby:
+
+Overall discussion centered on milestone five and general member progress.
+
+Discussed milestone five. Discussed which features we want to write test cases for, what steps would need to be involved in those test cases, and decided to seek further information from TA.
+
+Discussed overall group progress. Page creation and style on the front end, database changes and format, and the overall pipeline for user login as a testpiece for other features.
+
+Agreed to meet the following Sunday.

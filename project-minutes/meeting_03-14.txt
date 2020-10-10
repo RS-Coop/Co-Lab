@@ -1,0 +1,9 @@
+Meeting for March 14th in Gemmil:
+
+Scheduling meeting time for this weekend to get as much work done before spring break.
+
+Prepared for showing demo to TA during lab.
+
+Discussed integration of go code and html code. Went over overall file structureand package use.
+
+Discussed neccesary database information.

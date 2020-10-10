@@ -1,0 +1,9 @@
+Meeting April 4th in BOLD Center
+
+Part of the team meet earlier in the day to work on the backend database systems.
+
+The whole team then meet to discuss overall progress, and milestone 5.
+
+Discussed database integration, Go functions, login, passwords, and more.
+
+Discussed individual progress and to do's for the next week.

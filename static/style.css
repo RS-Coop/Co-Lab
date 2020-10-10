@@ -1,0 +1,923 @@
+/* HOME OF OUR UNIFIED CSS*/
+
+a {
+  text-decoration: none;
+  color: #FF2D36 !important;
+}
+
+.navbar-brand img {
+  width: 10vw;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.container-fluid{
+	padding: 0px;
+	border: 0px;
+}
+
+.btn-signup {
+  background-color: #fff !important;
+  color: #FF2D36 !important;
+  border-radius: 0 !important;
+}
+
+.btn-signup:hover {
+  background-color: #FF2D36 !important;
+  color: #fff !important;
+}
+
+.btn-login {
+  background-color: #FF2D36 !important;
+  border-color: #fff !important;
+  border-width: medium !important;
+  border-radius: 0 !important;
+  color: #fff;
+}
+
+.btn-login:hover {
+  border-width: 0 !important;
+}
+
+.btn-pin {
+  width: 150px;
+  color: #fff !important;
+  background-color: #FF2D36 !important;
+  border-radius: 0 !important;
+  border-color: #fff !important;
+  border-width: 5px !important;
+  margin-right: 20px;
+}
+
+.btn-comment {
+  width: 150px;
+  color: #fff !important;
+  background-color: #FF2D36 !important;
+  border-radius: 0 !important;
+  border-color: #fff !important;
+  border-width: 5px !important;
+}
+
+#main {
+	font-family: "Raleway";
+	text-align: center;
+	padding: 0px;
+}
+
+#topbar {
+	padding: 30px;
+	background: #FF2D36;
+	color: #fff;
+	border-bottom: 20px solid #fff;
+}
+
+#user-pills {
+  align-items: center;
+	justify-content: center;
+}
+
+#signup {
+  height: 50px;
+  width: 160px;
+  font-size: 1.5em;
+}
+
+#login {
+  height: 50px;
+  width: 160px;
+  font-size: 1.5em;
+}
+
+#paralax-text {
+	font-family: "Raleway";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 91vh;
+	color: #fff;
+	text-align: left;
+}
+
+#paralax-text h1{
+  padding-top: 135px;
+	font-size: 6.0em;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+#paralax-text h1 span{
+	font-weight: 900;
+	font-style: italic;
+	color: #FF2D36;
+}
+
+#body {
+	min-height: 700px;
+	padding: 50px;
+	background: #fff;
+}
+
+#body h1 {
+	font-size: 7.5em;
+	font-weight: 900;
+	color: #FF2D36;
+}
+
+#body-text {
+	background: #fff;
+	padding: 30px;
+	color: #7f7f7f;
+}
+
+#body-text h2 {
+	font-size: 4.0em;
+	font-weight: 200;
+}
+
+#body-text p {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 2.0em;
+	color: #4F323F;
+}
+
+#Footer {
+	text-align: center;
+	height:35vh;
+	background: #FF2D36;
+	color: #fff;
+}
+
+#signinsheet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("../assets/desert_1.jpg");
+  background-size: cover;
+}
+
+#signinsheet .container {
+  align-items: center;
+  justify-content: center;
+}
+
+#signinsheet .container .jumbotron {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  border-left: 10px solid #fff;
+}
+
+#forms button:hover{
+  background-color: #fff !important;
+  color: #FF2D36 !important;
+  border-width: medium !important;
+
+}
+
+#forms {
+  width: 30vw;
+}
+
+#signinsheet .info-form {
+  display: flex;
+  justify-content: center;
+}
+
+/*~~~~~~~~~~~~ USERPAGE CSS STARTS HERE ~~~~~~~~~~~~*/
+
+#header-container {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  height: 30vh;
+  z-index: 0;
+  border-bottom: 10px solid #fff;
+}
+
+#user-navbar{
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100% !important;
+  color: #FF2D36;
+}
+
+#user-navbar a {
+  position: relative;
+  left: 33.33%;
+  color: #FF2D36 !important;
+  border: 3px solid #FF2D36;
+  width: 175px;
+  padding: 5px;
+}
+
+#user-navbar a:hover {
+  color: #fff !important;
+  border: 3px solid #FF2D36;
+  background-color: #FF2D36;
+}
+
+#user-navbar a .nav-options:hover {
+  color: #FF2D36 !important;
+}
+
+.nav-options {
+  border: none !important;
+  width: 40.5px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.nav-options:hover {
+  border: none !important;
+  background-color: #fff !important;
+  color: #FF2D36 !important;
+}
+
+.nav-options #user-navbar a:hover{
+  border: none !important;
+  background-color: #fff !important;
+  color: #FF2D36 !important;
+}
+
+.nav-options i {
+  font-size: 2.5em;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.nav-options i:hover {
+  border: none !important;
+  background-color: #fff !important;
+  color: #FF2D36 !important;
+}
+
+#user-navbar-button {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 8px;
+  width: 150px !important;
+}
+
+#sidebar-container {
+  background-color: #fff;
+  border-right: 3px solid #FF2D36;
+  width: 350px;
+  height: 80vh;
+  z-index: 1;
+}
+
+#profile-img {
+  position: relative;
+  top: -15vh;
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  height: 200px;
+  width: 200px;
+  border: 10px solid #fff;
+}
+
+#sidebar-contents {
+  word-wrap: break-word;
+  position: relative;
+  top: -15vh;
+  height: 100vh;
+  width: 90%;
+  color: #FF2D36;
+  font-family: "Raleway";
+}
+
+#sidebar-contents h1 {
+  font-size: 1.5vw;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+#sidebar-contents h3 {
+  width: 250px;
+  font-size: 0.75vw;
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #7f7f7f;
+}
+
+#sidebar-contents p {
+  color: #4F323F;
+}
+
+#body-container {
+ background-color: #fff;
+ height: 1000px;
+ align-items: center;
+ padding: 0px;
+}
+
+#body-container .navbar-expand-xl {
+  padding: 0px !important;
+}
+
+#placeholder {
+  text-align: center;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #e0e0e0;
+  font-weight: bolder;
+  font-style: italic;
+  width: 100%;
+  height: 100%;
+}
+
+#placeholder h1 {
+  position: relative;
+  top: 25%;
+}
+
+#comment {
+  height: 400px;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#comment-header {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  width: 100%;
+  height: 30%;
+}
+
+#comment-box {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  border: 10px solid #fff;
+  height: 125px;
+  width: 125px;
+  position: relative;
+  left: -40%;
+  top: -10%;
+  z-index: 1;
+}
+
+#comment-title {
+  position: relative;
+  top: -110px;
+  border-top: 3px solid #FF2D36;
+  border-left: 3px solid #FF2D36;
+  border-right: 3px solid #FF2D36;
+  background-color: #fff;
+  color: #FF2D36;
+  z-index: 0;
+}
+
+#comment-title h1 {
+  position: relative;
+  left: 180px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  max-width: 40%;
+}
+
+#comment-title h5 {
+  position: relative;
+  right: -75%;
+  top: -50px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+#comment-contents {
+  position: relative;
+  top: -110px;
+  background-color: #fff;
+  border-bottom: 3px solid #FF2D36;
+  border-left: 3px solid #FF2D36;
+  border-right: 3px solid #FF2D36;
+  color: #4F323F;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+#comment-contents p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+#post {
+  height: 800px;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#post-header {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  width: 100%;
+  height: 18%;
+}
+
+#post-box {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  border: 10px solid #fff;
+  height: 125px;
+  width: 125px;
+  position: relative;
+  left: -40%;
+  top: -10%;
+  z-index: 1;
+}
+
+#post-title {
+  position: relative;
+  top: -110px;
+  border-top: 3px solid #FF2D36;
+  border-left: 3px solid #FF2D36;
+  border-right: 3px solid #FF2D36;
+  background-color: #fff;
+  color: #FF2D36;
+  z-index: 0;
+}
+
+#post-title h1 {
+  position: relative;
+  left: 180px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  max-width: 40%;
+}
+
+#post-title h5 {
+  position: relative;
+  right: -75%;
+  top: -50px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+#post-body {
+  position: relative;
+  top: -110px;
+  height: 82%;
+  background-color: #fff;
+  border-bottom: 3px solid #FF2D36;
+  border-left: 3px solid #FF2D36;
+  border-right: 3px solid #FF2D36;
+}
+
+#post-contents {
+  height: 90%;
+  font-size: 1.2em;
+}
+
+#lhs {
+  padding: 10px;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+#lhs li {
+  background-color: #FF2D36;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rhs {
+  padding: 10px;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+#rhs li {
+
+}
+
+/*UNUSED POST STYLE*/
+/*
+  #sample-item-2 {
+  height: 900px;
+  width: 100%;
+  background-color: #FF2D36;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#sample-item-2-header {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  border-bottom: 20px solid #fff;
+  width: 100%;
+  height: 75%;
+}
+
+#sample-item-2-box {
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  border: 10px solid #fff;
+  height: 125px;
+  width: 125px;
+  position: relative;
+  left: -40%;
+  top: -70%;
+  z-index: 1;
+}
+
+#sample-item-2-title {
+  position: relative;
+  top: -110px;
+  background-color: #FF2D36;
+  color: #fff;
+  z-index: 0;
+}
+
+#sample-item-2-title h1 {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+  max-width: 40%;
+}
+
+#sample-item-2-title h5 {
+  position: relative;
+  right: -75%;
+  top: -50px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+#sample-item-2-contents {
+  position: relative;
+  top: -110px;
+  background-color: #FF2D36;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+#sample-item-2-contents p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+*/
+
+/*~~~~~~~~~~~~ PROJECTPAGE CSS STARTS HERE ~~~~~~~~~~~~*/
+
+#taskbar {
+  height: 75px;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#project-logo {
+  position:relative;
+  bottom: -50px;
+  margin: 0px !important;
+  height: 150px;
+  width: 150px;
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+  border: 10px solid #fff;
+}
+
+#project-name {
+  color: #fff !important;
+  font-size: 2.0em;
+  margin-left: 50px;
+
+}
+
+#project-toolbar {
+  position: relative;
+  left: 220px;
+  width: 100%;
+}
+
+#project-sidebar {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 100vh;
+  border-right: 3px solid #FF2D36;
+  background: #fff;
+
+}
+
+#project-body {
+  /*background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);*/
+  background: #fff;
+  margin: 0px;
+  padding: 20px;
+  width: 100vw;
+}
+#kanban {
+  font-family: "Raleway";
+
+}
+
+.project-header {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background-image: linear-gradient(127deg,#FFC24C,#FF9551,#F66B61,#D84975,#AA3884,#6D3489,#003281);
+}
+
+.project-nav-item {
+  margin: 8px;
+}
+
+.project-taskbar-button {
+  border: 3px solid #FF2D36;
+  padding: 3px !important;
+  width: 100px;
+  text-align: center;
+}
+
+.dropdown {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100px;
+}
+
+.dropdown-toggle {
+  width: 100% !important;
+  height: 100% !important;
+  text-decoration: none !important;
+}
+
+.dropdown-menu {
+  border-radius: 0px !important;
+  border: 3px solid #FF2D36 !important;
+  background-color: #fff !important;
+  color: #FF2D36 !important;
+  text-align: center !important;
+}
+
+.kanban-bar {
+  /*background-image: linear-gradient(0deg,#FF2D36,#E0E0E0,#E0E0E0,#E0E0E0,#FFFFFF);*/
+  background-color: #fff;
+  color: #4F323F;
+  height: 85vh;
+  /*border: 3px solid #e0e0e0;*/
+  padding: 0px !important;
+}
+
+.kanban-bar h1 {
+  background-color: #fff;
+  font-weight: lighter;
+  padding: 10px;
+  padding-top: 0px !important;
+  border-bottom: 10px solid #fff;
+}
+
+.task-area {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  height: 90% !important;
+  padding: 0px !important;
+}
+
+.mini-task {
+  border-bottom: 3px solid #e0e0e0;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.task-title-sm {
+  display: flex;
+  align-items: center;
+  font-size: 2.0em;
+  height: 30%;
+  color: #FF2D36;
+}
+
+.task-due-sm {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10%;
+  color: #4F323F;
+}
+
+.task-details-sm {
+  height: 60%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  color: #7f7f7f;
+}
+
+.button-project {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  word-wrap: break-word !important;
+  width: 150px;
+  height: 50px;
+  border: 3px solid #FF2D36 !important;
+  border-radius: 0px !important;
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button-project:hover {
+  color: #fff !important;
+  background-color: #FF2D36;
+}
+
+#todo {
+
+}
+
+#done {
+
+}
+
+#working {
+
+}
+
+/*~~~~~~~~~~~~ TASKPAGE CSS STARTS HERE ~~~~~~~~~~~~*/
+
+#task-body {
+  font-family: "Raleway";
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+  border: 3px solid #FF2D36;
+}
+
+#task-body h1 {
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  background-color: #FF2D36;
+  color: #fff;
+}
+
+#task-body h3 {
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  right: -75%;
+  top: -50px;
+  height: 0px;
+}
+
+#members {
+  height: 50vh;
+  padding: 10px;
+}
+
+#members li {
+  background-color: #FF2D36;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#details {
+  height: 50vh;
+  padding: 10px;
+}
+
+#comments-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #e0e0e0;
+  margin-top: 30px;
+}
+
+#comments-body h1 {
+  font-style: italic;
+  color: #e0e0e0;
+}
+
+/*~~~~~~~~~~~~ 404PAGE CSS STARTS HERE ~~~~~~~~~~~~*/
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  background-image: none;
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  background-image: none;
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 img {
+  background-image: none;
+  height: 500px;
+  width: 500px;
+  margin: 0px;
+  color: #FF2D36;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+  background-image: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: -70%;
+  left: 0;
+  right: 0;
+}
+
+.notfound .notfound-404 h3 {
+  background-image: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: #FF2D36;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: -105%;
+  left: 0;
+  right: 0;
+}
+
+.notfound a {
+  background-image: none;
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 13px 23px;
+  background: #FF2D36;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  background-image: none;
+  color: #FF2D36;
+  background: #211b19;
+}

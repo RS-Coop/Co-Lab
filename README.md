@@ -1,3 +1,7 @@
+## Note
+
+The original repo can be found [here](https://github.com/NikolaasBender/Co-Lab), this is just my own version.
+
 ![Alt text](assets/colab_2.png)
 
 These days, everyone seems glued to their social media,
